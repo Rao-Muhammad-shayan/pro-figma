@@ -1,0 +1,422 @@
+* {
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.theme-btn-outlined {
+  padding: 10px 20px;
+  border-radius: 12px;
+}
+
+.btn-theme-black {
+  background-color: #191a23;
+  color: #fff;
+  font-size: 12px;
+  padding: 10px 30px;
+}
+
+.btn-theme-black:hover {
+  background-color: #191a23;
+  color: #fff;
+}
+
+.main-header-content {
+  gap: 25px;
+}
+
+.image-box > img {
+  width: 100%;
+}
+
+.brand-logos > div > img {
+    filter: grayscale(1);
+}
+/* cards */
+
+.card{
+  margin-top: 3rem;
+  gap: 2rem;
+}
+.brave{
+  transition:0.3s ease-out ;
+}
+.brave1{
+  transition:0.3s ease-out ;
+}
+.brave:hover{
+  transform:translatey(-0.4rem);
+}
+.brave1:hover{
+  transform:translatey(-0.4rem);
+}
+/* work */
+.work{
+  margin-top: 3rem;
+}
+/* nother */
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.accordion {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.accordion-item {
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  background: #fff;
+ 
+}
+
+.accordion-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+ background:#F3F3F3;
+  color: black;
+  cursor: pointer;
+  font-weight: bold;
+ height: 170px;
+ border: 1px solid black;
+ border-bottom-width: 1rem;
+ border-radius: 45px;
+}
+.accordion-header:hover{
+  background: #B9FF66;;
+}
+.accordion-header h3 {
+  font-size: 1rem;
+}
+
+.accordion-content {
+  display: none;
+  padding: 15px 20px;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  background: #f9f9f9;
+}
+
+.accordion-item.active .accordion-content {
+  display: block;
+}
+
+.accordion-item.active .toggle-btn {
+  transform: rotate(45deg); 
+
+}
+
+.toggle-btn {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.container {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 20px;
+}
+/* detail in form */
+.contact-form {
+  display: flex;
+  align-items: flex-start;
+  background: #F3F3F3;
+  border-radius: 15px;
+  padding: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-content {
+  flex: 1;
+  padding-right: 20px;
+
+}
+
+.contact-form h2 {
+  color: #32cd32;
+  margin-bottom: 10px;
+}
+
+.contact-form p {
+  font-size: 0.9rem;
+  margin-bottom: 20px;
+}
+
+.toggle-options {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+}
+
+.toggle-options label {
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+  font-size: 0.9rem;
+}
+
+.toggle-options input[type="radio"] {
+  margin-right: 5px;
+  accent-color: #32cd32;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-size: 0.9rem;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 0.9rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.form-group textarea {
+  resize: none;
+  height: 100px;
+}
+
+button {
+  background: #000;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 0.9rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #32cd32;
+}
+
+/* Image Section */
+.form-image {
+  flex: 0.5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 20px;
+}
+
+.form-image img {
+  max-width: 100%;
+  height: 55vh;
+  border-radius: 0px;
+  background: #F3F3F3;
+  /* Placeholder background for empty src */
+}
+button:hover {
+  background: #32cd32;
+}
+@media only screen and (max-width: 540px) {
+    .image-box  {
+        margin-top: 30px;
+    }
+
+    .brand-logos > div {
+        margin-top: 25px;
+    }
+}
+/* footer */
+.footer {
+  background-color: #121212;
+  padding: 20px 10px;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* Logo and Navigation */
+.footer-top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.brand-name {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.footer-nav {
+  margin-top: 10px;
+}
+
+.footer-nav a {
+  color: #aaa;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.footer-nav a:hover {
+  color: #fff;
+}
+
+/* Contact Section */
+.footer-middle {
+  margin-bottom: 20px;
+}
+
+.contact-title {
+  color: #c6ff00;
+  /* Light green for "Contact us" */
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.footer-middle p {
+  margin: 5px 0;
+  color: #ccc;
+}
+
+/* Newsletter Subscription */
+.newsletter {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.email-input {
+  padding: 10px;
+  width: 250px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  background: #1c1c1e;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.subscribe-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #c6ff00;
+  color: #000;
+  cursor: pointer;
+}
+
+.subscribe-button:hover {
+  background-color: #aaff00;
+}
+
+/* Footer Bottom */
+.footer-bottom {
+  border-top: 1px solid #333;
+  padding-top: 10px;
+  font-size: 14px;
+  color: #aaa;
+}
+
+.footer-bottom a {
+  color: #c6ff00;
+  text-decoration: none;
+}
+
+.footer-bottom a:hover {
+  text-decoration: underline;
+}
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  .service-cards {
+      flex-direction: column;
+  }
+
+  .card {
+      flex: 1 1 100%;
+      margin-bottom: 20px;
+  }
+
+  .accordion-header h3 {
+      font-size: 0.9rem;
+  }
+
+  .accordion-content {
+      font-size: 0.8rem;
+  }
+
+  .contact-form {
+      flex-direction: column;
+      align-items: stretch;
+  }
+
+  .form-content {
+      padding-right: 0;
+  }
+
+  .form-image {
+      margin-top: 20px;
+      padding-left: 0;
+  }
+
+  .footer-nav {
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-bottom: 20px;
+  }
+
+  .footer-nav a {
+      margin: 5px;
+  }
+
+  .email-input {
+      width: 90%;
+  }
+
+  .subscribe-button {
+      width: 90%;
+  }
+
+}
+
+@media only screen and (max-width: 540px) {
+    .image-box  {
+        margin-top: 30px;
+    }
+
+    .brand-logos > div {
+        margin-top: 25px;
+    }
+}
